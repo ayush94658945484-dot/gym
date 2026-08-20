@@ -1,0 +1,109 @@
+{
+    "date": "2026-08-15",
+    "notes": "Started fresh tracking",
+    "overall_rpe": 6.0,
+    "gym_minutes": 45,
+    "body_metrics": {
+        "weight_kg": 75.2,
+        "body_fat_pct": 18.5,
+        "muscle_mass_kg": 62.1,
+        "body_age": 25
+    },
+    "sleep": {
+        "total_sleep_minutes": 420,
+        "hr_min": 60,
+        "hr_max": 100,
+        "notes": "Good sleep"
+    },
+    "activity": {
+        "move_calories": 650,
+        "exercise_minutes": 30,
+        "stand_hours": 8,
+        "steps": 8500,
+        "distance_km": 5.2
+    },
+    "workout": {
+        "duration_minutes": 45,
+        "notes": "Leg day",
+        "exercises": [
+            {
+                "type": "lifting",
+                "name": "Squat (Barbell)",
+                "muscle_group": "quads",
+                "equipment": "barbell",
+                "pain_flag": false,
+                "sets": [
+                    {
+                        "set": 1,
+                        "weight_kg": 80,
+                        "reps": 8
+                    },
+                    {
+                        "set": 2,
+                        "weight_kg": 80,
+                        "reps": 8
+                    },
+                    {
+                        "set": 3,
+                        "weight_kg": 85,
+                        "reps": 6
+                    }
+                ]
+            },
+            {
+                "type": "lifting",
+                "name": "Bench Press",
+                "muscle_group": "chest",
+                "equipment": "barbell",
+                "pain_flag": false,
+                "sets": [
+                    {
+                        "set": 1,
+                        "weight_kg": 60,
+                        "reps": 10
+                    },
+                    {
+                        "set": 2,
+                        "weight_kg": 65,
+                        "reps": 10
+                    }
+                ]
+            }
+        ]
+    },
+    "meals": [
+        {
+            "meal_type": "breakfast",
+            "description": "Oats with banana",
+            "calories": 420,
+            "protein_g": 35,
+            "carbs_g": 55,
+            "fat_g": 8,
+            "fiber_g": 6,
+            "is_estimated": true,
+            "foods": null
+        },
+        {
+            "meal_type": "lunch",
+            "description": "Chicken salad",
+            "calories": 550,
+            "protein_g": 45,
+            "carbs_g": 30,
+            "fat_g": 20,
+            "fiber_g": 8,
+            "is_estimated": false,
+            "foods": [
+                {
+                    "food_name": "chicken breast",
+                    "quantity": 200,
+                    "unit": "g",
+                    "calories": 320,
+                    "protein_g": 35,
+                    "carbs_g": 0,
+                    "fat_g": 3,
+                    "fiber_g": 0
+                }
+            ]
+        }
+    ]
+}
